@@ -1,0 +1,84 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+#me{
+    color:orange;
+    font-size: 3rem;
+    line-height: 40%;
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.half-width{
+    width: 30%;
+    float:left;
+    margin-left: 15%;
+    padding: 30px 30px;
+    
+}
+.half-width img{
+    width: 100%;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding:10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight:700;
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+}
+#bio{
+    font-size: 3rem;
+}
+#latest-works{
+    text-align: center;
+}
+.recent-work{
+    background-image: url(images/latest-work-bg.png);
+}
+.work-img{
+    display:block;
+    float: left;
+    width: 32%;
+    Padding: 5px;
+    margin:0;
+}
+.work-img img{
+    width: 100%;
+}
+.clients{
+    background-image: url(images/footer-bg.png);
+    padding:20% 20%;
+
+}
+#comments{
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+.what{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.message{
+    text-align:center;
+    color:white;
+    background-color: palevioletred;
+    width: 100%;
+    height: 40%;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+footer{
+    text-align: center;
+}
